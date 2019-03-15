@@ -16,13 +16,18 @@
 
 	<div id="wrepper">
 		<div id="header">
-			<h2>CRM - Customer Relationship Managersfsd</h2>
+			<h2>CRM - Customer Relationship Managers</h2>
 		</div>
 	</div>
 
 	<div id="container">
 		<div id="content">
-
+			<!--add customer label -->
+			<input type="button" value="Add Customer" 
+			onclick="window.location.href='showFormForAdd';  return false;" 
+			class="add-button" />
+			
+			
 			<!-- add our html table here -->
 			<table>
 				<tr>
